@@ -44,7 +44,3 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# TensorFlow Lite model files (weights)
-**/*.tflite
-assets/*.tflite
-lib/models/*.tflite
