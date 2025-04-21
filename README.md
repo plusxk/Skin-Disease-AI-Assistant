@@ -31,4 +31,3 @@ Diagnosing skin diseases is challenging due to diverse symptoms and appearances.
 - Config files and tokenizer stored in `lora_model/` (ignored from Git)
 
 ## 🗂 Project Structure
-
