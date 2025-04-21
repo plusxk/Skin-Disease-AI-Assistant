@@ -49,5 +49,5 @@ Here's the full inference pipeline:
    - The LLM generates medical Q&A responses based on the prediction
    - For example: condition explanations, next steps, related symptoms
 
-## 🗂 Project Structure
+
 
