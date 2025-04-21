@@ -33,7 +33,7 @@ Diagnosing skin diseases is challenging due to diverse symptoms and appearances.
 ## 🖼️ Demo
 
 <p align="center">
-  <img src="Demo.png" alt="Skin Disease AI Assistant Demo" width="400"/>
+  <img src="Demo.png" alt="Skin Disease AI Assistant Demo" width="800"/>
 </p>
 
 ## 📸 How It Works
