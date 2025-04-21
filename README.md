@@ -30,4 +30,24 @@ Diagnosing skin diseases is challenging due to diverse symptoms and appearances.
 - Efficient low-rank fine-tuning
 - Config files and tokenizer stored in `lora_model/` (ignored from Git)
 
+## 🖼️ Demo
+
+<p align="center">
+  <img src="demo.png" alt="Skin Disease AI Assistant Demo" width="400"/>
+</p>
+
+## 📸 How It Works
+
+Users can either **take a photo** or **upload an image** of their skin condition.  
+Here's the full inference pipeline:
+
+1. 📷 **User takes or uploads a skin image**
+2. 📱 **The mobile app executes a lightweight TFLite-based skin disease detection model locally**
+   - All inference runs **on-device**, ensuring privacy and low latency
+3. 🔁 **The prediction result is sent to the backend**
+4. 🤖 **The backend interacts with a fine-tuned LLaMA3-based LLM**
+   - The LLM generates medical Q&A responses based on the prediction
+   - For example: condition explanations, next steps, related symptoms
+
 ## 🗂 Project Structure
+
